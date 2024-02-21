@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #282829;
+  padding: 15px 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.container{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.rasmlar{
+padding-top: 114px;
+}
+.item a {
+  text-decoration: none;
+  color: #fff;
+}
+.title{
+width: 743px;
+margin: 0 auto;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 500;
+line-height: 93px;
+letter-spacing: 0%;
+text-align: center;
+}
+.picture{
+  text-align: center;
+  width: 393px;
+  margin-bottom: 60px;
+}
+.card{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
